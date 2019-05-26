@@ -33,7 +33,7 @@ def get_constellation(bot, update):
             planet = planet[1]
             date_format = "%Y/%m/%d"
             curr_date = datetime.date.today().strftime(date_format)
-
+Jupiter
             if planet in PLANETS:
                 const = PLANETS[planet](curr_date)
                 update.message.reply_text(ephem.constellation(const))
@@ -71,18 +71,3 @@ def main():
 
 main()
 
-
-
-EllipticalBody
-HyperbolicBody
-Jupiter
-Mars
-Mercury
-Moon
-Neptune
-ParabolicBody
-Pluto
-Saturn
-Sun
-Uranus
-Venus
