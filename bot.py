@@ -71,18 +71,3 @@ def main():
 
 main()
 
-
-
-EllipticalBody
-HyperbolicBody
-Jupiter
-Mars
-Mercury
-Moon
-Neptune
-ParabolicBody
-Pluto
-Saturn
-Sun
-Uranus
-Venus
