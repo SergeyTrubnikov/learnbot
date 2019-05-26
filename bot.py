@@ -33,7 +33,11 @@ def get_constellation(bot, update):
             planet = planet[1]
             date_format = "%Y/%m/%d"
             curr_date = datetime.date.today().strftime(date_format)
+<<<<<<< HEAD
 Jupiter
+=======
+
+>>>>>>> 49248cae77841763c2bcf39a9b9cbc1dd57aeaf8
             if planet in PLANETS:
                 const = PLANETS[planet](curr_date)
                 update.message.reply_text(ephem.constellation(const))
